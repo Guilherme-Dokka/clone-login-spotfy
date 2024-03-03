@@ -219,13 +219,23 @@ header{
 }
 
 
-.logIn{
+.login{
   height: 50px;
   width: 110px;
   border-radius: 100px;
   color: black;
   font-weight: 600;
   margin-left: 30px;
+}
+
+.login a{
+  color: black;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
 }
 
 main{

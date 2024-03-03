@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: w;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+}
+
+.header {
+  width: 100%;
+}
+.header .logo {
+  color: white;
+  padding: 45px;
+  display: flex;
+  align-items: center;
+}
+.header .logo .img-logo {
+  margin-right: 2px;
+}
+
+.log-in {
+  margin: 0 auto;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: 480px;
+}
+.log-in .title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 70px;
+  color: #F9F9F9;
+}
+.log-in label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #F9F9F9;
+}
+.log-in .address-email {
+  height: 70px;
+  border: 2px solid #A7A7A7;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+.log-in .address-email::-moz-placeholder {
+  padding-left: 15px;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  font-weight: 500;
+}
+.log-in .address-email::placeholder {
+  padding-left: 15px;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  font-weight: 500;
+}
+.log-in .phone-link {
+  color: rgb(30, 215, 96);
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+.log-in .next {
+  height: 65px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  background-color: #1ed760;
+}
+.log-in .or {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+  font-size: 1.2rem;
+  color: #F9F9F9;
+}
+.log-in .or::before {
+  background-color: #A7A7A7;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 230px;
+  margin-right: 10px;
+}
+.log-in .or::after {
+  background-color: #A7A7A7;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 230px;
+  margin-left: 10px;
+}
+.log-in .login-with {
+  height: 65px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 0.5px solid #A7A7A7;
+}
+.log-in .login-with img {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+}
+.log-in .login-with a {
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.log-in .footer-section {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.log-in .footer-section::before {
+  background-color: #A7A7A7;
+  content: "";
+  display: inline-block;
+  height: 0.3px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.log-in .footer-section .politic-privacy {
+  font-size: 1rem;
+  color: #A7A7A7;
+  margin: 40px 0px;
+  line-height: 20px;
+  text-align: center;
+}
+.log-in .footer-section .politic-privacy a {
+  color: #A7A7A7;
+}
+.log-in .footer-section p {
+  color: #A7A7A7;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.log-in .footer-section p a {
+  color: #F9F9F9;
+}/*# sourceMappingURL=styla-page1.css.map */
