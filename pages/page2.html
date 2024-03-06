@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styla-page1.css" />
+    <link rel="stylesheet" href="../css/style-page2.css" />
+    <link
+      rel="shortcut icon"
+      href="../img/spotfy-page1.svg"
+      type="image/x-icon"
+    />
     <title>Inscrever-se - Spotfy</title>
   </head>
 
@@ -13,49 +18,63 @@
         <img src="../img/spotify-50.png" class="img-logo" alt="" />Spotfy
       </h1>
     </header>
-    <div class="container"></div>
     <section class="log-in">
-      <h2 class="title">
-        Se inscreva e <br />
-        comece a curtir
-      </h2>
-      <label for="address-email">Endereço de e-mail</label>
-      <input
-        type="text"
-        name="address-email"
-        class="address-email"
-        placeholder="nome@dominio.com"
-      />
-      <a href="#" class="phone-link">Usar número de telefone.</a>
-      <button class="next">Avançar</button>
+      <nav class="login-links">
+        <h2 class="title">Entrar no Spotfy</h2>
 
-      <p class="or">ou</p>
+        <button class="login-with">
+          <img src="../img/google.png" alt="" /><a href="#"
+            >Continuar com o Google</a
+          >
+        </button>
+        <button class="login-with">
+          <img src="../img/logo-do-facebook.png" alt="" /><a href="#"
+            >Continuar com o Facebook</a
+          >
+        </button>
+        <button class="login-with">
+          <img src="../img/apple.png" alt="" /><a href="#"
+            >Continuar com a Apple</a
+          >
+        </button>
+        <button class="login-with">
+          <a href="#">Continuar com um número de telefone</a>
+        </button>
+        <hr
+          role="presentation"
+          class="sc-ftTHYK lnjJQp cz-color-16777215 cz-color-2697513"
+        />
+        <div class="inputs">
+          <label for="address-email">E-mail ou nome de usuário</label>
+          <input
+            type="text"
+            name="email-address"
+            class="input-enter"
+            placeholder="E-mail ou nome de usuário
+              "
+          />
+          <label for="address-email">Senha</label>
+          <input
+            type="password"
+            name="email-address"
+            class="input-enter"
+            placeholder="Senha"
+          />
 
-      <button class="login-with">
-        <img src="../img/google.png" alt="" /><a href="#"
-          >Inscrever-se com o Google</a
-        >
-      </button>
-      <button class="login-with">
-        <img src="../img/logo-do-facebook.png" alt="" /><a href="#"
-          >Inscrever-se com o Facebook</a
-        >
-      </button>
-      <button class="login-with">
-        <img src="../img/apple.png" alt="" /><a href="#"
-          >Criar conta com a Apple</a
-        >
-      </button>
+          
 
-      <footer class="footer-section">
-        <p>Já tem uma conta? <a href="#">Faça login aqui.</a></p>
-
-        <p class="politic-privacy">
-          this is protected by reCAPTCHA and the Google <br />
-          <a href="#"><span>Privacy policy</span></a> and
-          <a href="#"><span>Terms of service apply.</span></a>
-        </p>
-      </footer>
+        </div>
+      </nav>
     </section>
+
+    <footer class="footer-section">
+      <p>Já tem uma conta? <a href="#">Faça login aqui.</a></p>
+
+      <p class="politic-privacy">
+        this is protected by reCAPTCHA and the Google <br />
+        <a href="#"><span>Privacy policy</span></a> and
+        <a href="#"><span>Terms of service apply.</span></a>
+      </p>
+    </footer>
   </body>
 </html>
