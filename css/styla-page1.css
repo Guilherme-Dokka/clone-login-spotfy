@@ -14,6 +14,10 @@ body {
   background-color: #121212;
 }
 
+a {
+  cursor: pointer;
+}
+
 .header {
   width: 100%;
 }
@@ -118,6 +122,9 @@ body {
   align-items: center;
   background-color: transparent;
   border: 0.5px solid #A7A7A7;
+}
+.log-in .login-with:hover {
+  border-color: white;
 }
 .log-in .login-with img {
   width: 30px;

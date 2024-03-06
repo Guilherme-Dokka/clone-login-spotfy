@@ -15,6 +15,10 @@ body {
     background-color: $backgroun-color;
 }
 
+a {
+    cursor: pointer;
+}
+
 .header {
     width: 100%;
     .logo {
@@ -118,6 +122,11 @@ body {
         align-items: center;
         background-color: transparent;
         border: 0.5px solid $color-secundary-text;
+
+        &:hover {
+            border-color: white;
+        }
+        
         img {
             width: 30px;
             height: 30px;
@@ -149,26 +158,25 @@ body {
             width: 100%;
             margin-bottom: 50px;
         }
-        
-        .politic-privacy{
+
+        .politic-privacy {
             font-size: 1rem;
             color: $color-secundary-text;
             margin: 40px 0px;
             line-height: 20px;
             text-align: center;
-            a{
+            a {
                 color: $color-secundary-text;
             }
         }
 
-        p{
+        p {
             color: $color-secundary-text;
             font-size: 1.4rem;
             font-weight: 500;
-            a{
+            a {
                 color: $color-primary-text;
             }
         }
-        
     }
 }

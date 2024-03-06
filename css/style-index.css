@@ -143,12 +143,20 @@ h3{
 }
 
 .buttonContainer{
-    padding: 7px 15px;
+    width: 125px;
+    height: 36px;
     border-radius: 22px;
     margin-top: 1.5rem;
     border: 1px solid black;
     color: #000;
     font-weight: 550;
+    transition: .5s;
+}
+
+.buttonContainer:hover{
+  height: 41px;
+  width: 130px;
+
 }
 
 main {
@@ -226,6 +234,12 @@ header{
   color: black;
   font-weight: 600;
   margin-left: 30px;
+  border: none;
+}
+
+.login:hover{
+  height: 53px;
+  width: 113px;
 }
 
 .login a{
