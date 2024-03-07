@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -136,6 +136,33 @@ a {
   font-size: 1.1rem;
   margin: 0 auto;
   font-weight: 500;
+}
+.log-in .login-links .inputs .label-remember {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: grey;
+  border-radius: 20px;
+  border: 1px solid white;
+  border: none;
+}
+.log-in .login-links .inputs .label-remember span {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.log-in .login-links .inputs .label-remember input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.log-in .login-links .inputs .label-remember input:checked ~ span {
+  left: 20px;
 }
 
 .footer-section {

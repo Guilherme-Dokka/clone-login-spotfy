@@ -8,7 +8,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -125,12 +125,12 @@ a {
                 border-radius: 3px;
                 border-color: $color-secundary-text;
 
-                &:hover{
-                    transition: .2s;
+                &:hover {
+                    transition: 0.2s;
                     outline: 1px solid $color-primary-text;
                 }
 
-                &:focus{
+                &:focus {
                     outline: 2px solid $color-primary-text;
                 }
 
@@ -141,6 +141,37 @@ a {
                     font-weight: 500;
                 }
             }
+
+            
+                .label-remember {
+                    position: relative;
+                    width: 40px;
+                    height: 20px;
+                    background-color: grey;
+                    border-radius: 20px;
+                    border: 1px solid white;
+                    border: none;
+
+                    span {
+                        position: absolute;
+                        top: 1px;
+                        left: 1px;
+                        width: 16px;
+                        height: 16px;
+                        background-color: black;
+                        border-radius: 50%;
+                        cursor: pointer;
+                    }
+
+                    input {
+                        appearance: none;
+
+                        &:checked ~ span {
+                            left: 20px;
+                        }
+                    }
+                }
+            
         }
     }
 }
