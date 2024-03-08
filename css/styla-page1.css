@@ -52,7 +52,7 @@ a {
 }
 .log-in .email-address {
   height: 70px;
-  border: 2px solid rgb(75, 75, 75);
+  border: 2px solid rgb(141, 141, 141);
   border-radius: 5px;
   margin-bottom: 15px;
   background-color: transparent;
@@ -92,7 +92,7 @@ a {
   color: #F9F9F9;
 }
 .log-in .or::before {
-  background-color: rgb(75, 75, 75);
+  background-color: rgb(141, 141, 141);
   content: "";
   display: inline-block;
   height: 2px;
@@ -102,7 +102,7 @@ a {
   margin-right: 10px;
 }
 .log-in .or::after {
-  background-color: rgb(75, 75, 75);
+  background-color: rgb(141, 141, 141);
   content: "";
   display: inline-block;
   height: 2px;
@@ -121,7 +121,7 @@ a {
   display: flex;
   align-items: center;
   background-color: transparent;
-  border: 0.5px solid rgb(75, 75, 75);
+  border: 0.5px solid rgb(141, 141, 141);
 }
 .log-in .login-with:hover {
   border-color: white;
@@ -146,7 +146,7 @@ a {
   flex-direction: column;
 }
 .log-in .footer-section::before {
-  background-color: rgb(75, 75, 75);
+  background-color: rgb(141, 141, 141);
   content: "";
   display: inline-block;
   height: 0.3px;
@@ -157,16 +157,16 @@ a {
 }
 .log-in .footer-section .politic-privacy {
   font-size: 1rem;
-  color: rgb(75, 75, 75);
+  color: rgb(141, 141, 141);
   margin: 40px 0px;
   line-height: 20px;
   text-align: center;
 }
 .log-in .footer-section .politic-privacy a {
-  color: rgb(75, 75, 75);
+  color: rgb(141, 141, 141);
 }
 .log-in .footer-section p {
-  color: rgb(75, 75, 75);
+  color: rgb(141, 141, 141);
   font-size: 1.4rem;
   font-weight: 500;
 }

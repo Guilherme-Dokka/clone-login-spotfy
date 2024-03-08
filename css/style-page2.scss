@@ -44,7 +44,7 @@ a {
     align-items: center;
     width: 700px;
     margin: 30px 0 30px 0;
-    background-image: linear-gradient(#000000, #2a2a2a);
+    background-image: linear-gradient(#000000, #121212);
     border-radius: 8px;
 
     .login-links {
@@ -56,7 +56,7 @@ a {
         .title {
             font-size: 2.5rem;
             font-weight: 700;
-            margin-bottom: 70px;
+            margin-bottom: 50px;
             color: $color-primary-text;
             margin-top: 70px;
         }
@@ -96,7 +96,7 @@ a {
         hr {
             border: none;
             &::after {
-                background-color: $color-secundary-text;
+                background-color: rgb(32, 32, 32);
                 content: "";
                 display: inline-block;
                 height: 1px;
@@ -124,6 +124,9 @@ a {
                 border: 1px solid;
                 border-radius: 3px;
                 border-color: $color-secundary-text;
+                color: $color-primary-text;
+                padding-left: 15px;
+                font-size: 1.1rem;
 
                 &:hover {
                     transition: 0.2s;
@@ -135,47 +138,107 @@ a {
                 }
 
                 &::placeholder {
-                    padding-left: 15px;
                     font-size: 1.1rem;
                     margin: 0 auto;
                     font-weight: 500;
                 }
             }
 
-            
-                .label-remember {
-                    position: relative;
-                    width: 40px;
-                    height: 20px;
-                    background-color: grey;
-                    border-radius: 20px;
-                    border: 1px solid white;
-                    border: none;
+            .label-remember {
+                position: relative;
+                width: 35px;
+                height: 16px;
+                background-color: grey;
+                border-radius: 20px;
+                border: 1px solid white;
+                border: none;
 
-                    span {
-                        position: absolute;
-                        top: 1px;
-                        left: 1px;
-                        width: 16px;
-                        height: 16px;
-                        background-color: black;
-                        border-radius: 50%;
-                        cursor: pointer;
-                    }
+                p {
+                    position: absolute;
+                    left: 50px;
+                    top: 0px;
+                    width: 100px;
+                }
 
-                    input {
-                        appearance: none;
+                span {
+                    position: absolute;
+                    top: 1px;
+                    left: 1px;
+                    width: 14px;
+                    height: 14px;
+                    background-color: black;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
 
-                        &:checked ~ span {
-                            left: 20px;
-                        }
+                input {
+                    appearance: none;
+
+                    &:checked ~ span {
+                        left: 20px;
                     }
                 }
-            
+            }
+        }
+
+        .enter {
+            width: 294px;
+            height: 45px;
+            border-radius: 30px;
+            border: none;
+            background-color: $green-link;
+            color: #000000;
+            font-size: 1rem;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+
+            &:hover {
+                width: 300px;
+                font-size: 1.1rem;
+            }
+        }
+
+        .password {
+            margin-top: 30px;
+            color: $color-primary-text;
+
+            &:hover {
+                color: $green-link;
+            }
+        }
+
+        .new-account {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $color-secundary-text;
+            margin: 30px 0px 50px 0 ;
+
+            a {
+                color: $color-primary-text;
+
+                &:hover {
+                    color: $green-link;
+                }
+            }
         }
     }
 }
 
 .footer-section {
-    display: none;
+    width: 100%;
+    height: 80px;
+    background-color: $backgroun-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-secundary-text;
+    font-size: .7rem;
+
+    a{
+        color: $color-secundary-text;
+    }
 }
