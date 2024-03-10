@@ -292,6 +292,7 @@ flex-wrap: wrap;
 .image-card{
   margin: 10px 10px 20px 10px;
   height: 150px;
+
   width:153px;
   background-color: var(--white);
   border-radius: 10px;
